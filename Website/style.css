@@ -1,0 +1,58 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  margin-top: 100px;
+  grid-gap: 20px;
+}
+header {
+  margin-top: 50px;
+  font-size: xx-large;
+  font-family: "Futura";
+  text-align: center;
+  color: beige;
+}
+body {
+  background: #788ca7;
+}
+p {
+  font-family: "Futura";
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+}
+.bild1 {
+  grid-column: 1/2;
+  text-align: center;
+}
+.bild2 {
+  grid-column: 2/3;
+  text-align: center;
+}
+
+.bild3 {
+  grid-column: 3/4;
+  text-align: center;
+}
+.bild4 {
+  grid-column: 4/5;
+  text-align: center;
+}
+.bild5 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  text-align: center;
+}
+.bild6 {
+  grid-column: 5/2;
+  grid-row: 2/3;
+  text-align: center;
+}
+img {
+  width: 200px;
+  height: 300px;
+}
+#markus {
+  width: 1200px;
+  height: 250px;
+}
